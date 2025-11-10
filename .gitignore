@@ -13,3 +13,8 @@ Cargo.lock
 .fleet/
 .vim/
 .kiro/
+
+
+# Added by cargo
+
+/target

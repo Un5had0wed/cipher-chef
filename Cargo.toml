@@ -1,0 +1,12 @@
+[package]
+name = "cipher-chef"
+version = "0.1.0"
+edition = "2021"
+authors = ["Cipher Chef Contributors"]
+description = "A CLI tool for text encryption and decryption using various encoding techniques"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+base64 = "0.21"
+anyhow = "1"
+thiserror = "1"
